@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Images/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0; 
+    width: 100vw; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav img{
+    width: 200px;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    width: max-content;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 30px;
+}
+
+.login-container h1{
+    margin-bottom: 20px;
+}
+
+.login-container input{
+    font-size: 18px;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 0.5px solid rgba(255, 255, 255, 0.281);
+    background: rgba(135, 187, 235, 0.411);
+}
+
+.login-container button{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.login-container .or{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-container .login{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.login-container .login:hover{
+    background-color: rgba(255, 0, 0, 0.349);
+}
+
+.login-container .code{
+    background-color: #dddddd52;
+    color: white;
+    font-weight: bold;
+}
+.login-container .check{
+    display: flex;
+    align-items: center;
+}
+
+.check input{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.recall a{
+    text-decoration: none;
+    color: white;
+}
